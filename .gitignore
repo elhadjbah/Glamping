@@ -1,0 +1,39 @@
+HELP.md
+target/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+# IntelliJ IDEA
+.idea/
+
+
+# Gradle
+build/
+.gradle/
+
+# Spring Boot
+*.iml
+*.log
+
+# Logs
+log/
+
+# IDE-specific files
+.vscode/
+*.ipr
+*.iws
+*.idea/
+
+# OS-specific
+.DS_Store
+
+
+### VS Code ###
+.vscode/
