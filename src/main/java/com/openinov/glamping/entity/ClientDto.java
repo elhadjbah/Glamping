@@ -1,21 +1,15 @@
 package com.openinov.glamping.entity;
 
 
-import jakarta.persistence.*;
 import lombok.*;
 
-@Data
 @Getter
 @Setter
 @AllArgsConstructor
 @NoArgsConstructor
-@Entity
-@Table(name = "Clients")
-public class Clients {
+public class ClientDto {
 
-    @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Long id;
+    private String ID_Client;
 
     private String Nom;
     private String Prenom;

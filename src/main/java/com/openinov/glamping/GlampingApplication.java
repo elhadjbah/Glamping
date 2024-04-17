@@ -9,6 +9,7 @@ public class GlampingApplication {
 	public static void main(String[] args) {
 
 		SpringApplication.run(GlampingApplication.class, args);
+
 		System.out.println("Hello Glamping");
 	}
 
